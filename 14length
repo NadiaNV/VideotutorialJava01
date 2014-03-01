@@ -1,0 +1,12 @@
+/* 06 - VideotutorialJava
+http://www.youtube.com/watch?v=Vu8VQaodaAg&list=PLUeHzPBdeXoG6yFDA79d-1wyr4Pri1GhN */
+
+class length {
+    public static void main (String[] args) {
+        String respuesta = "amarillo";
+        //respuenta.length(); número de caracteres de la variable "largura"
+        int tam = respuesta.length();
+        System.out.println(tam);
+        //amarillo.lenght(); devuelve 8
+    }
+}
