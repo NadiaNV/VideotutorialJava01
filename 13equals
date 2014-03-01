@@ -1,0 +1,15 @@
+/* 06 - VideotutorialJava
+http://www.youtube.com/watch?v=Vu8VQaodaAg&list=PLUeHzPBdeXoG6yFDA79d-1wyr4Pri1GhN */
+
+class equals {
+    public static void main (String[] args) {
+        String respuesta = "amarillo";
+        String resultado = "verde";
+        System.out.println("¿Has respondido que el color es " +resultado + "?");
+        //respuesta.equals(resultado) compara si es igual respuesta a resultado
+        //amarillo igual a verde?
+        System.out.println("Respuesta: " + respuesta.equals(resultado));
+        //Devuelve false
+     
+    }
+}
