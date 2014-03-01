@@ -1,0 +1,16 @@
+/* 06 - VideotutorialJava
+http://www.youtube.com/watch?v=Vu8VQaodaAg&list=PLUeHzPBdeXoG6yFDA79d-1wyr4Pri1GhN */
+
+class Case {
+    public static void main (String[] args) {
+        String nombre = "Pedro Gonzalez";
+        //toLowerCase transforma en minúsculas
+        String minusculas = nombre.toLowerCase();
+        //toUpperCase transforma en mayusculas        
+        String mayusculas = nombre.toUpperCase();
+
+        System.out.println(nombre);
+        System.out.println(minusculas);
+        System.out.println(mayusculas);
+    }
+}
