@@ -1,0 +1,15 @@
+/* 06 - VideotutorialJava
+http://www.youtube.com/watch?v=Vu8VQaodaAg&list=PLUeHzPBdeXoG6yFDA79d-1wyr4Pri1GhN */
+
+class IndexOf {
+    public static void main (String[] args) {
+        String texto = "En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.";
+        int buscar1 = texto.indexOf("cosita");
+        int buscar2 = texto.indexOf("Mancha");
+
+        System.out.println(buscar1);
+        //Devuelve -1 porque no coincide con ninguna
+        System.out.println(buscar2);
+        //Devuelve 18 porque es el 18 caracter donde empieza la palabra Mancha
+    }
+}
